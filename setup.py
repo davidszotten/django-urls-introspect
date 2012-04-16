@@ -12,11 +12,11 @@ copyright (c) 2012 by David Szotten
 license: MIT. See LICENSE for details
 """
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='django-urls-introspect',
-    version='0.1.0',
+    version='0.1.4',
     author='David Szotten',
     author_email='Author name (as one word) at gmail.com',
     url='https://github.com/davidszotten/django-urls-introspect',
@@ -24,5 +24,7 @@ setup(
     long_description=__doc__,
     install_requires=['django>=1.2,<1.4'],
     license='MIT',
+    packages=find_packages(),
+    include_package_data=True,
     zip_safe=False,
 )
