@@ -3,7 +3,7 @@
 
 Introspect django urlpatterns to find potential bugs. Comes in handy during refactoring projects or as an extra sanity check
 
-[ blog post ](http://davidszotten.github.com/introspecting-django-urls-for-fun-and-profit.html )
+[ blog post ](http://www.szotten.com/david/introspecting-django-urls-for-fun-and-profit.html)
 
 ## Usage
 
